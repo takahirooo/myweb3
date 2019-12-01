@@ -1,0 +1,163 @@
+@media screen and (min-width: 960px) {
+  body {
+    background-color: #FDFDFD;
+    font-family: "-apple-system,BlinkMacSystemFont,.SFNSDisplay-Regular,Aktiv Grotesk,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,YuGothic,游ゴシック,sans-serif";
+    font-style: normal;
+    font-weight: 400; }
+
+  .l-header {
+    width: 100%;
+    margin: 20px 0; }
+    .l-header__title {
+      text-align: center;
+      font-size: 60px;
+      margin-bottom: 20px;
+      font-family: 'Pacifico', cursive; }
+    .l-header__blog_title {
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-family: 'Pacifico', cursive; }
+
+  footer {
+    margin: 40px 0; }
+
+  .l-content {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .l-list {
+    margin-bottom: 0; }
+    .l-list__title {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0; }
+
+  .l-box_items {
+    margin-top: 0;
+    margin-bottom: 20px; }
+    .l-box_items__item {
+      width: 300px;
+      height: 210px;
+      display: inline-block;
+      text-align: center;
+      margin: 20px 10px; }
+      .l-box_items__item__image {
+        max-width: 281px;
+        max-height: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+      .l-box_items__item__title {
+        height: 30px;
+        margin: 10px; }
+
+  .l-image_items {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .l-image_items__item {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 5px; }
+      .l-image_items__item:after {
+        content: " ";
+        display: block;
+        height: 0px;
+        clear: both;
+        visibility: hidden;
+        font-size: 0.1em;
+        line-height: 0; }
+      .l-image_items__item__image {
+        float: left;
+        width: 154px;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+      .l-image_items__item__title {
+        float: left;
+        text-align: left;
+        margin-left: 20px; }
+
+  .l-list_items {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .l-list_items__item {
+      padding: 5px 0; } }
+@media screen and (max-width: 959px) {
+  body {
+    background-color: #FDFDFD;
+    font-family: "-apple-system,BlinkMacSystemFont,.SFNSDisplay-Regular,Aktiv Grotesk,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,YuGothic,游ゴシック,sans-serif";
+    font-style: normal;
+    font-weight: 400; }
+
+  .l-header {
+    width: 100%;
+    margin: 20px 0; }
+    .l-header__title {
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Pacifico', cursive; }
+    .l-header__blog_title {
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Pacifico', cursive; }
+
+  footer {
+    margin: 40px 0; }
+
+  .l-content {
+    padding: 0;
+    margin: 0 20px; }
+
+  .l-list {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .l-list__title {
+      text-align: left;
+      margin-bottom: 0; }
+
+  .l-box_items {
+    margin: 0 10px;
+    text-align: center; }
+    .l-box_items__item {
+      width: 300px;
+      max-width: 100%;
+      height: 210px;
+      display: inline-block;
+      text-align: center;
+      margin: 5px 0; }
+      .l-box_items__item__image {
+        max-width: 281px;
+        max-height: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+      .l-box_items__item__title {
+        height: 30px;
+        margin-top: 5px; }
+
+  .l-image_items {
+    margin-bottom: 20px;
+    margin-top: 10px; }
+    .l-image_items__item {
+      margin-top: 0;
+      padding-left: 20px;
+      width: 100%; }
+      .l-image_items__item:after {
+        content: " ";
+        display: block;
+        height: 0px;
+        clear: both;
+        visibility: hidden;
+        font-size: 0.1em;
+        line-height: 0; }
+      .l-image_items__item__image {
+        float: left;
+        width: 30%;
+        border: 1px solid rgba(0, 0, 0, 0.2); }
+      .l-image_items__item__title {
+        float: left;
+        width: 60%;
+        text-align: left;
+        margin-left: 5%; }
+
+  .l-list_items {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    .l-list_items__item {
+      padding: 2px 0; } }
